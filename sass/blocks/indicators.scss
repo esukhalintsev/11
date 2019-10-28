@@ -1,5 +1,8 @@
 .indicators {
   position: relative;
+  @media (min-width: $desktop-width) {
+    padding-bottom: 50px;
+  }
 
   &__title {
     margin-bottom: 20px;
@@ -29,8 +32,20 @@
     }
 
     @media (min-width: $desktop-width) {
+      position: relative;
       flex-direction: column;
       width: 30%;
+      
+      &::before {
+        position: absolute;
+        content: "";
+        top:-300px;
+        left: -300px;
+        width: 395px;
+        height: 394px;
+        background: url("../img/tablets.svg") no-repeat;
+        background-size: cover;
+      }
     }
   }
 

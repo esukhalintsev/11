@@ -1,18 +1,18 @@
 .intro {
   padding-top: 80px;
   color: #fff;
-  background: url("../../img/bg-1.svg"), url("../../img/bg-2.svg");
+  background: url("../img/bg-1.svg"), url("../img/bg-2.svg");
   background-repeat: no-repeat;
   background-position: top center;
 
   @media (min-width: $tablet-width) {
     padding-top: 100px;
-    background-image: url("../../img/bg-tablet.svg");
+    background-image: url("../img/bg-tablet.svg");
     background-size: cover;
   }
 
   @media (min-width: $desktop-width) {
-    background-image: url("../../img/bg-desktop.svg");
+    background-image: url("../img/bg-desktop.svg");
     min-height: 971px;
   }
 
@@ -89,19 +89,19 @@
     background-position: center;
 
     &--phone {
-      background-image: url("../../img/icon-phone.svg");
+      background-image: url("../img/icon-phone.svg");
     }
 
     &--doc {
-      background-image: url("../../img/icon-doc.svg");
+      background-image: url("../img/icon-doc.svg");
     }
 
     &--lock {
-      background-image: url("../../img/icon-lock.svg");
+      background-image: url("../img/icon-lock.svg");
     }
 
     &--rub {
-      background-image: url("../../img/icon-rub.svg");
+      background-image: url("../img/icon-rub.svg");
     }
 
 
@@ -110,19 +110,19 @@
       height: 90px;
 
       &--phone {
-        background-image: url("../../img/icon-phone-desk.svg");
+        background-image: url("../img/icon-phone-desk.svg");
       }
 
       &--doc {
-        background-image: url("../../img/icon-doc-desk.svg");
+        background-image: url("../img/icon-doc-desk.svg");
       }
 
       &--lock {
-        background-image: url("../../img/icon-lock-desk.svg");
+        background-image: url("../img/icon-lock-desk.svg");
       }
 
       &--rub {
-        background-image: url("../../img/icon-rub-desk.svg");
+        background-image: url("../img/icon-rub-desk.svg");
       }
     }
   }
