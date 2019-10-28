@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.visually-hidden:not(:focus):not(:active):not(:hover),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 288px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 571px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1024px;
+  }
+}

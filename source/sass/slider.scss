@@ -1,0 +1,25 @@
+.slick-slider {
+
+  &__slide {
+    width: 94px;
+    margin: 0 auto;
+
+    @media (min-width: $tablet-width) {
+      width: 184px;
+    }
+
+    @media (min-width: $desktop-width) {
+       width: 281px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 70%;
+  }
+}
+
+.slick-track {
+   @media (min-width: $desktop-width) {
+   min-height: 600px !important;
+  }
+}

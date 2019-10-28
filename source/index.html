@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Лендинг: Мое здоровье</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,768&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <script src="js/svg4everybody.min.js"></script>
+  <script>
+    svg4everybody();
+
+  </script>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  <link rel="stylesheet" href="./css/slick.css">
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <ul class="page-header__list">
+        <li class="page-header__item">
+          <img src="./img/icon-hearth-logo.svg" width="110" height="42" alt="Icon logo">
+        </li>
+
+        <ul>
+          <li class="page-header__item">
+            <a class="" href="#">
+              <svg class="" width="128" height="36">
+                <use xlink:href="./img/sprite.svg#icon-appstore"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="page-header__item">
+            <a class="" href="">
+              <img src="./img/icon-google.svg" width="128" height="36" alt="google-play-logo">
+            </a>
+          </li>
+        </ul>
+
+        <li class="page-header__item">
+          <svg class="" width="127" height="39">
+            <use xlink:href="./img/sprite.svg#icon-logo"></use>
+          </svg>
+        </li>
+        <button class="page-header__toggle">
+          <svg class="" width="24" height="16">
+            <use xlink:href="./img/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </ul>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="intro">
+      <div class="container">
+        <h2 class="intro__title">Все данные о вашем здоровье в одном приложении</h2>
+        <p class="intro__desc">Универсальная электронная медицинская карта и сервис для дистанционного сопровождения пациентов, которая решает следующие проблемы:</p>
+
+        <div class="intro__wrapper">
+          <ul class="intro__items">
+            <li class="intro__item">
+              <div class="intro__icon intro__icon--phone">
+              </div>
+              <span class="intro__value">Все необходимое в одном месте</span>
+            </li>
+            <li class="intro__item">
+              <div class="intro__icon intro__icon--doc">
+              </div>
+              <span class="intro__value">Разработано врачами</span>
+            </li>
+            <li class="intro__item">
+              <div class="intro__icon intro__icon--lock">
+              </div>
+              <span class="intro__value">Безопасность даных</span>
+            </li>
+            <li class="intro__item">
+              <div class="intro__icon intro__icon--rub">
+              </div>
+              <span class="intro__value">Бесплатное приложение</span>
+            </li>
+          </ul>
+          <ul class="intro__download-list">
+            <li class="intro__download-item">
+              <a class="intro__download-link" href="#">
+                <svg class="" width="128" height="36">
+                  <use xlink:href="./img/sprite.svg#icon-appstore"></use>
+                </svg>
+                Скачать в App Store</a>
+            </li>
+            <li class="intro__download-item">
+              <a class="intro__download-link" href="">
+                <img src="./img/icon-google.svg" width="128" height="36" alt="google-play-logo">
+                Скачать в Play Market</a>
+            </li>
+          </ul>
+          <div class="intro__preview">
+            <div class="intro__image">
+
+              <div class="intro__img intro__img--android">
+                <picture>
+                  <source media="(min-width: 1600px)" srcset="./img/android-preview-desktop@1x.png 1x, ./img/android-preview-desktop@2x.png 2x">
+                  <source media="(min-width: 768px)" srcset="./img/android-preview-tablet@1x.png 1x, ./img/android-preview-tablet@2x.png 2x">
+                  <img src="./img/android-preview.png" alt="">
+                </picture>
+              </div>
+
+              <div class="intro__img">
+                <picture>
+                  <source media="(min-width: 1600px)" srcset="./img/ios-preview-desktop@1x.png 1x, ./img/ios-preview-desktop@2x.png 2x">
+                  <source media="(min-width: 768px)" srcset="./img/ios-preview-tablet@1x.png 1x, ./img/ios-preview-tablet@2x.png 2x">
+                  <img src="./img/ios-preview.png" alt="">
+                </picture>
+              </div>
+
+            </div>
+            <div class="intro__controls">
+              <ul class="intro__controls-list">
+                <li class="intro__controls-item">
+                  <input class="intro__radio visually-hidden" type="radio" name="value" id="ios">
+                  <label class="intro__label" for="ios">iOS</label>
+                </li>
+                <li class="intro__controls-item">
+                  <input class="intro__radio visually-hidden" type="radio" name="value" id="android" checked>
+                  <label class="intro__label" for="android">Android</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <h2 class="features__title">Возможности приложения</h2>
+        <ul class="features__list">
+          <li class="features__item">
+            <div class="features__icon">
+              <svg class="" width="29" height="17">
+                <use xlink:href="./img/sprite.svg#icon-diagramm"></use>
+              </svg>
+            </div>
+            <span class="features__value">Контроль показателей своего здоровья</span>
+          </li>
+          <li class="features__item">
+            <div class="features__icon">
+              <svg class="" width="24" height="24">
+                <use xlink:href="./img/sprite.svg#icon-tablets"></use>
+              </svg>
+            </div>
+            <span class="features__value">Создание курсов приема лекарств</span>
+          </li>
+          <li class="features__item">
+            <div class="features__icon">
+              <svg class="" width="25" height="25">
+                <use xlink:href="./img/sprite.svg#icon-disk"></use>
+              </svg>
+            </div>
+            <span class="features__value">Хранение медицинских документов</span>
+          </li>
+          <li class="features__item">
+            <div class="features__icon">
+              <svg class="" width="20" height="22">
+                <use xlink:href="./img/sprite.svg#icon-bell"></use>
+              </svg>
+            </div>
+            <span class="features__value">Создание <br>напоминаний</span>
+          </li>
+          <li class="features__item">
+            <div class="features__icon">
+              <svg class="" width="25" height="23">
+                <use xlink:href="./img/sprite.svg#icon-blood"></use>
+              </svg>
+            </div>
+            <span class="features__value">Календарь менструального цикла</span>
+          </li>
+          <li class="features__item">
+            <div class="features__icon">
+              <svg class="" width="23" height="23">
+                <use xlink:href="./img/sprite.svg#icon-hearth"></use>
+              </svg>
+            </div>
+            <span class="features__value">Дневник течения беременности</span>
+          </li>
+          <li class="features__item">
+            <div class="features__icon">
+              <svg class="" width="21" height="21">
+                <use xlink:href="./img/sprite.svg#icon-news"></use>
+              </svg>
+            </div>
+            <span class="features__value">Актуальные новости</span>
+          </li>
+          <li class="features__item features__item--soon">
+            <span class="features__marker">Скоро</span>
+            <div class="features__icon">
+              <svg class="" width="25" height="15">
+                <use xlink:href="./img/sprite.svg#icon-video"></use>
+              </svg>
+            </div>
+            <span class="features__value">Консультации <br> врачей онлайн</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="indicators">
+      <div class="container">
+        <h2 class="indicators__title">Контролируйте показатели своего здоровья</h2>
+        <div class="indicators__inner">
+          <ul class="indicators__list">
+            <li class="indicators__item">Вес</li>
+            <li class="indicators__item">Рост</li>
+            <li class="indicators__item">Температура</li>
+            <li class="indicators__item">Произвольные показатели</li>
+            <li class="indicators__item">Артериальное давление</li>
+            <li class="indicators__item">Частота сердечных сокращений</li>
+            <li class="indicators__item">Сахар в крови</li>
+          </ul>
+          <div class="slick-slider">
+            <div class="slick-slider__slide">
+              <picture>
+                <source media="(min-width: 1600px)" srcset="./img/mob-1-desktop@1x.png 1x, ./img/mob-1-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="./img/mob-1-tablet@1x.png 1x, ./img/mob-1-tablet@2x.png 2x">
+                <img src="./img/mob-1.png" alt="" srcset="./img/mob-1@2x.png">
+              </picture>
+            </div>
+            <div class="slick-slider__slide">
+              <picture>
+                <source media="(min-width: 1600px)" srcset="./img/mob-2-desktop@1x.png 1x, ./img/mob-2-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="./img/mob-2-tablet@1x.png 1x, ./img/mob-2-tablet@2x.png 2x">
+                <img src="./img/mob-2.png" alt="" srcset="./img/mob-2@2x.png">
+              </picture>
+            </div>
+            <div class="slick-slider__slide">
+              <picture>
+                <source media="(min-width: 1600px)" srcset="./img/mob-3-desktop@1x.png 1x, ./img/mob-3-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="./img/mob-3-tablet@1x.png 1x, ./img/mob-3-tablet@2x.png 2x">
+                <img src="./img/mob-3.png" alt="" srcset="./img/mob-3@2x.png">
+              </picture>
+            </div>
+            <div class="slick-slider__slide">
+              <picture>
+                <source media="(min-width: 1600px)" srcset="./img/mob-4-desktop@1x.png 1x, ./img/mob-4-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="./img/mob-4-tablet@1x.png 1x, ./img/mob-4-tablet@2x.png 2x">
+                <img src="./img/mob-4.png" alt="" srcset="./img/mob-4@2x.png">
+              </picture>
+            </div>
+            <div class="slick-slider__slide">
+              <picture>
+                <source media="(min-width: 1600px)" srcset="./img/mob-5-desktop@1x.png 1x, ./img/mob-5-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="./img/mob-5-tablet@1x.png 1x, ./img/mob-5-tablet@2x.png 2x">
+                <img src="./img/mob-5.png" alt="" srcset="./img/mob-5@2x.png">
+              </picture>
+            </div>
+            <div class="slick-slider__slide">
+              <picture>
+                <source media="(min-width: 1600px)" srcset="./img/mob-6-desktop@1x.png 1x, ./img/mob-6-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="./img/mob-6-tablet@1x.png 1x, ./img/mob-6-tablet@2x.png 2x">
+                <img src="./img/mob-6.png" alt="" srcset="./img/mob-6@2x.png">
+              </picture>
+            </div>
+            <div class="slick-slider__slide">
+              <picture>
+                <source media="(min-width: 1600px)" srcset="./img/mob-7-desktop@1x.png 1x, ./img/mob-7-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="./img/mob-7-tablet@1x.png 1x, ./img/mob-7-tablet@2x.png 2x">
+                <img src="./img/mob-7.png" alt="" srcset="./img/mob-7@2x.png">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="page-footer__inner">
+        <svg class="" width="119" height="37">
+          <use xlink:href="./img/sprite.svg#icon-logo--footer"></use>
+        </svg>
+        <ul class="page-footer__list">
+          <li class="page-footer__item">
+            <p class="page-footer__text">EN / RU</p>
+          </li>
+          <li class="page-footer__item">
+            <p class="page-footer__text">Моё здоровье</p>
+          </li>
+          <li class="page-footer__item">
+            <p class="page-footer__text">2016 - 2019 &copy; ООО "МИР"</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/slider.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.page-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  color: $color-grey3;
+  background-color: $color-grey2;
+
+  &__inner {
+    @media (min-width: $tablet-width) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    svg {
+      display: none;
+
+      @media (min-width: $tablet-width) {
+        display: block;
+      }
+    }
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  &__list {
+    @media (min-width: $tablet-width) {
+      align-items: flex-end;
+    }
+  }
+}
